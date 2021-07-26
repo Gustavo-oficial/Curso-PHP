@@ -85,6 +85,37 @@
                         <li><a href="exercicio.php?dir=repeticoes&file=break_continue">Break/Continue</a></li>
                         <li><a href="exercicio.php?dir=repeticoes&file=desafio_impressao">Desafio Impressão</a></li>
                         <li><a href="exercicio.php?dir=repeticoes&file=while_dowhile">While/DoWhile</a></li>
+                        <li><a href="exercicio.php?dir=repeticoes&file=desafio_tabela">Desafio Tabela 1</a></li>
+                        <li><a href="exercicio.php?dir=repeticoes&file=desafio_tabela_2">Desafio Tabela 2</a></li>
+                     </ul>
+                </div>
+                <div class="modulo laranja">
+                    <h3>Modulo 7</h3>
+                     <ul>
+                        <li><a href="exercicio.php?dir=funcoes&file=basico">Funções</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=argumentos">Argumentos</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=desafio_palindromo">Desafio Palindormo</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=argumentos_variaveis">Argumentos Variaveis</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=argumento_padrao">Argumento Padrão</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=declarando_tipos">Declarando Tipos</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=funcao_anonima">Função Anonima</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=closure_callable">Closure / Callable</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=recursividade">Recursividade</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=desafio_Busca">Desafio Busca Recursiva</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=retorna_funcao">Retorna function</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=map_filter">Map e Filter</a></li>
+                     </ul>
+                </div>
+                <div class="modulo dourado">
+                    <h3>Modulo 8</h3>
+                     <ul>
+                        <li><a href="exercicio.php?dir=classes_objetos&file=classe">Primeira classe</a></li>
+                        <li><a href="exercicio.php?dir=classes_objetos&file=desafio_data">Desafio Data</a></li>
+                        <li><a href="exercicio.php?dir=classes_objetos&file=construtor_destrutor">Construtor e Destrutor</a></li>
+                        <li><a href="exercicio.php?dir=classes_objetos&file=heranca">Herança</a></li>
+                        <li><a href="exercicio.php?dir=classes_objetos&file=visibilidade">Visibilidade</a></li>
+                        <li><a href="exercicio.php?dir=classes_objetos&file=membros_estaticos">Membros estaticos</a></li>
+                        <li><a href="exercicio.php?dir=classes_objetos&file=interface">Interface</a></li>
                      </ul>
                 </div>
             </nav>
