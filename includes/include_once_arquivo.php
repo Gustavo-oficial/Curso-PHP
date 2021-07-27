@@ -1,0 +1,3 @@
+<?php
+
+$variavel = "BORAAA";

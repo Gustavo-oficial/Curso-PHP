@@ -7,9 +7,9 @@ body{
     height: 100vh;
     margin: 0;
     display: grid;
-    grid-template-rows: 120px 1fr 60px;
+    grid-template-rows: 120px 60px 1fr 60px;
     grid-template-columns: 1fr;
-    grid-template-areas: "cabecalho" "principal" "rodape";
+    grid-template-areas: "cabecalho" "navegacao" "principal" "rodape";
 }
 .cabecalho{
     grid-area: cabecalho;
@@ -36,7 +36,7 @@ body{
 
 .principal{
     grid-area: principal;
-    height: calc(100vh - 180px);
+    height: calc(100vh - 240px);
     background-color: #f0f0f0;
     padding: 20px;
 }
@@ -131,3 +131,33 @@ body{
 
 .modulo.dourado { border: 2px solid rgb(110, 104, 11);}
 .modulo.dourado > h3 {background-color: rgb(110, 104, 11);}
+
+.modulo.marrom { border: 2px solid rgb(32, 23, 4);}
+.modulo.marrom > h3 {background-color: rgb(32, 23, 4);}
+
+.modulo.rosa { border: 2px solid #af3f8e;}
+.modulo.rosa > h3 {background-color: #af3f8e;}
+
+.modulo.azul-bb { border: 2px solid #4de2d6;}
+.modulo.azul-bb > h3 {background-color: #4de2d6;}
+
+.navegacao{
+    grid-area: navegacao;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(31, 36, 33);
+}
+
+.navegacao > a{
+    text-decoration: none;
+    font-weight: 300;
+    padding: 5px 10px;
+    color: #fff;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.navegacao > a.verda { background-color:#227922;}
+.navegacao > a.vermelho { background-color: #c02828;}
+
