@@ -1,8 +1,20 @@
+<?php
+session_start();
+
+if($_COOKIE['usuario']){
+    $_SESSION['usuario'] = $_COOKIE['usuario'];
+}
+
+if(!$_SESSION['usuario']){
+    header('Location: login.php');
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
         <link rel="stylesheet" href="assets\css\estilo.css">
         <link rel="stylesheet" href="assets\css\exercicio.css">
         <title>Exercicios</title>
@@ -13,8 +25,10 @@
          <h2>Visualização dos exercicios</h2>
     </header>
     <nav class="navegacao">
-        <a href=<?= "{$_GET['dir']}/{$_GET['file']}.php" ?> class="verda">Sem formatação</a>
-        <a href="index.php" class="vermelho">Voltar</a>
+    <span class="usuario"> <?= $_SESSION['usuario'] ?> </span>
+      <a href=<?= "{$_GET['dir']}/{$_GET['file']}.php" ?> class="verda">Sem formatação</a>
+      <a href="index.php" class="azu" >Voltar</a>
+    <a href="logout.php" class="vermelho">Sair</a>
     </nav>
     <main class="principal">
         <div class="conteudo">

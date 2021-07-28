@@ -102,6 +102,19 @@ body{
     background-color: blanchedalmond;
 }
 
+span.usuario{
+    color: #fff;
+    font-size: 1.2rem;
+    flex-grow: 1;
+    padding-left: 10px;
+    font-weight: 400;
+    justify-self: flex-start;
+}
+
+.navegacao > a.verda { background-color:#227922;}
+.navegacao > a.vermelho { background-color: #c02828; color: #fff;}
+.navegacao > a.azu { background-color: #3e4bbe;}
+
 .modulod.verde{ border: 2px solid rgb(61, 172, 61);}
 .modulo.verde > h3 {background-color: rgb(61, 172, 61);}
 
